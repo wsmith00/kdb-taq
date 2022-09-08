@@ -1,4 +1,6 @@
 // schema.q
+
+//Q script for quote, trade, and aggregation table schema
 // Quote Table Schema
 quote:([]time:`timestamp$();sym:`symbol$();bid:`float$();ask:`float$();bsize:`long$();asize:`long$());
 // trade Table Schema
